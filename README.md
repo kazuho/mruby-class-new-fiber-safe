@@ -10,4 +10,4 @@ See also: https://github.com/mruby/mruby/issues/3879
 Acknowledgements
 ----
 
-Advices from @miura1729 and @take-cheeze helped a lot in writing this mrbgem.
+Advices from [@miura1729](https://github.com/miura1729) and [@take-cheeze](https://github.com/take-cheeze) helped a lot in writing this mrbgem.
