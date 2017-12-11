@@ -22,8 +22,8 @@ static mrb_value class_allocate(mrb_state *mrb, mrb_value cv)
 
 void mrb_mruby_class_new_fiber_safe_gem_init(mrb_state* mrb)
 {
-    struct RClass *mod = mrb->module_class;
-    mrb_define_method(mrb, mod, "allocate", class_allocate, MRB_ARGS_NONE());
+    struct RClass *cls = mrb->class_class;
+    mrb_define_method(mrb, cls, "allocate", class_allocate, MRB_ARGS_NONE());
 }
 
 void mrb_mruby_class_new_fiber_safe_gem_final(mrb_state* mrb)
